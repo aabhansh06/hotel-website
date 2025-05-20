@@ -1,0 +1,115 @@
+import type { Room } from "@/types"
+
+export const rooms: Room[] = [
+  {
+    id: "room-1",
+    hotelId: "hotel-1",
+    name: "Deluxe King Room",
+    price: 250,
+    discount: 15,
+    image: "/placeholder.svg?height=300&width=500",
+    capacity: 2,
+    bedType: "1 King Bed",
+    size: 400,
+    features: [
+      "City View",
+      "Air Conditioning",
+      "Flat-screen TV",
+      "Mini Bar",
+      "Free WiFi",
+      "Coffee Machine",
+      "Safe",
+      "Desk"
+    ],
+    cancellation: "Free cancellation before June 12, 2025"
+  },
+  {
+    id: "room-2",
+    hotelId: "hotel-1",
+    name: "Executive Suite",
+    price: 380,
+    image: "/placeholder.svg?height=300&width=500",
+    capacity: 2,
+    bedType: "1 King Bed",
+    size: 600,
+    features: [
+      "Separate Living Area",
+      "City View",
+      "Air Conditioning",
+      "Flat-screen TV",
+      "Mini Bar",
+      "Free WiFi",
+      "Coffee Machine",
+      "Safe",
+      "Desk",
+      "Bathrobe & Slippers"
+    ],
+    cancellation: "Free cancellation before June 12, 2025"
+  },
+  {
+    id: "room-3",
+    hotelId: "hotel-1",
+    name: "Premium Double Room",
+    price: 280,
+    discount: 10,
+    image: "/placeholder.svg?height=300&width=500",
+    capacity: 4,
+    bedType: "2 Queen Beds",
+    size: 450,
+    features: [
+      "City View",
+      "Air Conditioning",
+      "Flat-screen TV",
+      "Mini Bar",
+      "Free WiFi",
+      "Coffee Machine",
+      "Safe",
+      "Desk"
+    ],
+    cancellation: "Free cancellation before June 12, 2025"
+  },
+  {
+    id: "room-4",
+    hotelId: "hotel-2",
+    name: "Ocean View Suite",
+    price: 450,
+    image: "/placeholder.svg?height=300&width=500",
+    capacity: 2,
+    bedType: "1 King Bed",
+    size: 550,
+    features: [
+      "Ocean View",
+      "Private Balcony",
+      "Air Conditioning",
+      "Flat-screen TV",
+      "Mini Bar",
+      "Free WiFi",
+      "Coffee Machine",
+      "Safe",
+      "Desk",
+      "Bathrobe & Slippers"
+    ],
+    cancellation: "Free cancellation before June 12, 2025"
+  },
+  {
+    id: "room-5",
+    hotelId: "hotel-2",
+    name: "Beachfront Villa",
+    price: 780,
+    image: "/placeholder.svg?height=300&width=500",
+    capacity: 4,
+    bedType: "1 King Bed + Sofa Bed",
+    size: 800,
+    features: [
+      "Direct Beach Access",
+      "Private Terrace",
+      "Separate Living Area",
+      "Air Conditioning",
+      "Flat-screen TV",
+      "Mini Bar",
+      "Free WiFi",
+      "Coffee Machine",
+      "Safe",
+      "Desk",
+      "Bathrobe & Slippers",
+      "Outdoor Shower"\
